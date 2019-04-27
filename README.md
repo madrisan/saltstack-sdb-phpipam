@@ -1,5 +1,6 @@
 # SaltStack SDB Module for {php}IPAM
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/48f891143bbb41baa8a9da9d33010fb8)](https://www.codacy.com/app/madrisan/saltstack-sdb-phpipam?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=madrisan/saltstack-sdb-phpipam&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://spdx.org/licenses/Apache-2.0.html)
 
 ![](images/phpipam_logo.png?raw=true)
