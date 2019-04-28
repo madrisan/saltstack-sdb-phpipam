@@ -13,14 +13,15 @@ This module requires a configuration profile to be configured in either the mini
 This profile requires very little:
 
     phpipam:
-      url: https://ipam.mydomain.com
       auth:
         user: 'read_api_user'
         password: 'xxxxx'
+      driver: phpipam
+      url: https://ipam.mydomain.com
 
 Where `url` is the URL of the *phpipam* server and `auth.user` and `auth.password` the credential of a user account created in the *phpipam* application. If authentication is successfull, an API token will be received and transparently included in the header of all the API requests.
 
-This Python module should be saved as `salt/_modules/phpipam.py`.
+This Python module should be saved as `salt/_modules/sdb/phpipam.py`.
 
 ## API documentation
 
